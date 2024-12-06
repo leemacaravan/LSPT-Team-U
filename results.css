@@ -1,0 +1,109 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Cambria', serif;;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  background-color: #d32f2f;
+  color: white;
+  padding: 3%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Cambria', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.header img {
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  width: auto;
+  height: 100%; /* Ensure the full image is visible */
+  max-height: 70%; /* Adjust max-height as needed */
+  object-fit: contain;
+}
+
+.footer {
+  width: 100%;
+  background-color: #484444;
+  color: #333;
+  padding: 30px;
+  text-align: center;
+  font-size: 1rem;
+  position: fixed;
+  bottom: 0;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.search-input {
+  width: 400px; /* Increase the width of the search bar */
+  padding: 0.75rem; /* Increase the padding for a bigger input field */
+  font-size: 1.2rem; /* Increase the font size */
+}
+
+.search-button {
+  padding: 0.75rem 1.5rem; /* Increase the padding for a bigger button */
+  font-size: 1.2rem; /* Increase the font size */
+  background-color: #d32f2f; /* Set the button color to red */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+h1 {
+  color: #333;
+}
+
+.query-text {
+  color: #555;
+  font-style: italic;
+}
+
+.result {
+  text-align: left;
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.result-title {
+  color: #1a0dab;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.result-url {
+  color: #006621;
+  font-size: 0.9rem;
+  margin: 5px 0;
+  text-decoration: none;
+}
+
+.result-description {
+  color: #545454;
+  font-size: 0.95rem;
+}

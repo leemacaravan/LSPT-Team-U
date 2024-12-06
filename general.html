@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="general.css">
+  <title>Simple Search Engine</title>
+  <script>
+    function navigateToResultsPage() {
+      // Get the query from the input field
+      const query = document.querySelector('.search-input').value;
+
+      // Redirect to results.html with the query as a URL parameter
+      window.location.href = `results.html?q=${encodeURIComponent(query)}`;
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="https://th.bing.com/th/id/R.672dbd113f0892e02c650da86d920af8?rik=u8DcRYYrAczqbw&pid=ImgRaw&r=0" alt="Rensselaer Crest">
+      Rensselaer Polytechnic Institute
+    </div>
+    
+    <div class="search-box">
+      <h1>Simple Search Engine</h1>
+      <form class="search-form" onsubmit="navigateToResultsPage(); return false;">
+        <input type="text" name="q" class="search-input" placeholder="Search the web...">
+        <button type="submit" class="search-button">Search</button>
+      </form>
+      <div class="scrollable-queries">
+        <table class="popular-queries">
+          <tr><td><a href="results.html?q=Query%201">Query 1</a></td></tr>
+          <tr><td><a href="results.html?q=Query%202">Query 2</a></td></tr>
+          <tr><td><a href="results.html?q=Query%203">Query 3</a></td></tr>
+          <tr><td><a href="results.html?q=Query%204">Query 4</a></td></tr>
+          <tr><td><a href="results.html?q=Query%205">Query 5</a></td></tr>
+          <tr><td><a href="results.html?q=Query%206">Query 6</a></td></tr>
+          <tr><td><a href="results.html?q=Query%207">Query 7</a></td></tr>
+          <tr><td><a href="results.html?q=Query%208">Query 8</a></td></tr>
+          <tr><td><a href="results.html?q=Query%209">Query 9</a></td></tr>
+          <tr><td><a href="results.html?q=Query%2010">Query 10</a></td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="info-box">
+      <h2>WHAT AM I SEARCHING?</h2>
+      <p>This search engine helps users quickly find RPI-specific resources, including faculty profiles, campus services, academic programs, and research. Tailored for the RPI community, it provides fast, relevant results for access to RPI's digital content.</p>
+    </div>
+
+    <div class="footer">Footer Content</div>
+  </div>
+</body>
+</html>
