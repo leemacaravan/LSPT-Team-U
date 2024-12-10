@@ -1,0 +1,26 @@
+/* Add General.css styles */
+html, body {
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+    font-family: 'Cambria', serif;
+    background-color: #f8f9fa;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Add Results.css styles */
+  .query-text {
+    color: #555;
+    font-style: italic;
+  }
+  .result {
+    text-align: left;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
