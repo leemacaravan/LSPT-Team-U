@@ -1,7 +1,8 @@
-LSPT-Team-U Search Engine Project
+# LSPT-Team-U Search Engine Project
+## UI/UX
 This repository contains the frontend and backend components of the LSPT-Team-U Search Engine. Follow the instructions below to set up the project locally for development and testing.
 
-Project Structure
+###Project Structure
 ├── backend/               # Backend codebase
 │   ├── api/               # API endpoints
 │   ├── routes/            # API routes
@@ -16,21 +17,23 @@ Project Structure
 │   ├── package-lock.json  # Frontend dependency lock file
 │   ├── tailwind.config.js # Tailwind CSS configuration
 
-Prerequisites
+###Prerequisites
 Node.js and npm:
 
-Install Node.js (LTS version recommended).
-npm is included with Node.js.
+  - Install Node.js (LTS version recommended).
+  - npm is included with Node.js.
 Git:
 
-Ensure Git is installed on your system.
+  - Ensure Git is installed on your system.
+
 Clone the Repository:
 
 Clone this repository using:
-bash
-Copy code
+```shell
+# Clone the repository to your local machine
 git clone https://github.com/<your-repo-url>
-cd LSPT-Team-U
+```
+
 Installation
 Backend Setup
 Navigate to the backend folder:
