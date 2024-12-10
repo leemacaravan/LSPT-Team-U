@@ -2,7 +2,7 @@
 ## UI/UX
 This repository contains the frontend and backend components of the LSPT-Team-U Search Engine. Follow the instructions below to set up the project locally for development and testing.
 
-###Prerequisites
+### Prerequisites
 Node.js and npm:
 
   - Install Node.js (LTS version recommended).
